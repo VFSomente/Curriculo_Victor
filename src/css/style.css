@@ -12,10 +12,11 @@
 }
 
 :root {
-  --bg-color: #191f36;
-  --snd-bf-color: #262b40;
+  --bg-color: rgb(15, 15, 15);
+  --snd-bf-color: rgb(33, 33, 33);
   --text-color: #fff;
-  --main-color: #59b2f4;
+  --main-color: rgb(130, 5, 158);
+  --black-color: #505050;
 }
 
 html {
@@ -43,6 +44,7 @@ section {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  border-bottom: 0.2rem solid var(--black-color);
 }
 
 .logo {
